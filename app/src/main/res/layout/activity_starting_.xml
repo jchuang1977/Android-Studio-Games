@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.group_0458.gamecenter.StartingActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/sliding_tiles"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="260dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="506dp"
+        android:text="@string/newGameText" />
+
+    <Button
+        android:id="@+id/load3"
+        android:layout_width="127dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="361dp"
+        android:text="Load 3x3 game" />
+
+    <Button
+        android:id="@+id/load4"
+        android:layout_width="127dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="360dp"
+        android:text="Load 4x4 game" />
+
+    <Button
+        android:id="@+id/load5"
+        android:layout_width="127dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="359dp"
+        android:text="Load 5x5 game" />
+
+    <Button
+        android:id="@+id/exitSlidingTilesButton"
+        android:layout_width="263dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="578dp"
+        android:text="EXIT GAME" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/styleCreationMenuButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="9dp"
+        android:text="game complexity for new game:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="127dp"
+        android:text="custom board style for new game:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/complexityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/StartButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="72dp"
+        android:text="2x2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/addComplexityButton"
+        android:layout_width="106dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="19dp"
+        android:text="Increase" />
+
+    <Button
+        android:id="@+id/styleCreationMenuButton"
+        android:layout_width="336dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="32dp"
+        android:text="open style creation menu" />
+
+    <Button
+        android:id="@+id/subtractComplexityButton"
+        android:layout_width="103dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="295dp"
+        android:text="Decrease" />
+
+    <Button
+        android:id="@+id/openSettingsButton"
+        android:layout_width="162dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="214dp"
+        android:text="OPEN SETTINGS" />
+
+    <Switch
+        android:id="@+id/styleSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="241dp" />
+
+    <TextView
+        android:id="@+id/customStyleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/styleSwitch"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="-3dp"
+        android:text="Custom style"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    <TextView
+        android:id="@+id/defaultStyleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/styleSwitch"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="-1dp"
+        android:text="Default style"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    <Button
+        android:id="@+id/viewLeaderBoardButton"
+        android:layout_width="164dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/subtractComplexityButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="280dp"
+        android:text="LEADERBOARD" />
+
+</RelativeLayout>

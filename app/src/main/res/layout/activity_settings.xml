@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <Button
+        android:id="@+id/settingsReturnBackButton"
+        android:layout_width="281dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="564dp"
+        android:text="return back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingsMenuTitleText"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="SETTINGS"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingsMenuInfoText"
+        android:layout_width="351dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="52dp"
+        android:text="Below you can modify time interval (seconds), in which you want your game to be automatically saved:"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingsMenuInfoText3"
+        android:layout_width="351dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="292dp"
+        android:text="please select the number of undo operations that you woud like to be able to perform:"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingsMenuCurrentValue"
+        android:layout_width="205dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="168dp"
+        android:text="4 seconds"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/undoNumSelection"
+        android:layout_width="194dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="404dp"
+        android:text="undo 3 times"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/settingsSubtractSecondButton"
+        android:layout_width="139dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="208dp"
+        android:text="-1 second"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/decreaseUndoTimesButton"
+        android:layout_width="139dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="452dp"
+        android:text="decrease"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SettingsAddSecondButton"
+        android:layout_width="141dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="208dp"
+        android:text="+1 second"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/increaseUndoTimesButton"
+        android:layout_width="141dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="456dp"
+        android:text="increase"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
